@@ -71,6 +71,18 @@ export const StackCards = styled("div", {
   },
 });
 
+export const About = styled("section", {
+  padding: "$section 0",
+  backgroundColor: "$grey0",
+  backgroundImage: `url(${dots})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "left top 11rem",
+  "@mobile": {
+    backgroundPosition: "right top 8rem",
+    padding: "$sectionMobile 0",
+  },
+});
+
 export const ProjectsArea = styled("section", {
   padding: "$section 0",
   backgroundColor: "$grey0",

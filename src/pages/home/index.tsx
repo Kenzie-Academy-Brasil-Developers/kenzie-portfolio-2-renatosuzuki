@@ -7,7 +7,6 @@ import { Button } from "@/styles/Buttons";
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
 import { Contacts } from "@/components/Contacts";
-
 // Data
 import { stackData } from "@/utils/stackData";
 import { userData } from "@/utils/userData";
@@ -25,6 +24,7 @@ import {
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
   ProjectsAreaContent,
+  About,
 } from "./style";
 import { HandEffect } from "@/components/HandEffect";
 
@@ -43,27 +43,26 @@ export const Home = (): JSX.Element => {
                 height={"48px"}
               />
               <Text color="grey4" css={{ marginLeft: "$2" }}>
-                Hello, my name is {userData.nameUser} <HandEffect />
+                Olá, meu nome é {userData.nameUser} <HandEffect />
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              Eu{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                amo
               </Text>{" "}
-              creating and{" "}
+              criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                desenvolver
               </Text>{" "}
-              projects
+              projetos
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Descubra aqui todos meus projetos e tecnologias.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver projetos
               </Button>
               <Button
                 as="a"
@@ -82,17 +81,28 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+      <About id="about">
+        <Container>
+          <h1 style={{color: "white", fontSize: "1.7rem"}}>Sobre mim</h1>
+          <p style={{color: "white", marginTop: "1rem"}}>Olá, sou o Renato. Atualmente sou desenvolvedor front-end junior, com conhecimentos em
+            HTML5, CSS3, ReactJS e Styled-Components, e estudante da Kenzie Academy, um curso livre
+            com formação Full Stack e duração de duas mil horas. Gosto de resolver problemas e fazer 
+            aplicações web. No momento estou vendo NodeJS e sou um grande entusiasta dessa tecnologia.
+            Meu principal Hobby é jogar, assim como grande parte dos devs.
+          </p>
+        </Container>
+      </About>
       <ProjectsArea id="projects">
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Projects created at{" "}
+                Projetos Criados{" "}
                 <Text as="span" color="brand5">
-                  Kenzie Academy
+                  Kenzie Academy Brasil
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
