@@ -68,7 +68,7 @@ export const Home = (): JSX.Element => {
                 as="a"
                 type="circle"
                 target="_blank"
-                href={userData.githubUser}
+                href="https://github.com/renatosuzuki"
               >
                 <FaGithub />
               </Button>
@@ -83,12 +83,15 @@ export const Home = (): JSX.Element => {
       </Header>
       <About id="about">
         <Container>
-          <h1 style={{color: "white", fontSize: "1.7rem"}}>Sobre mim</h1>
-          <p style={{color: "white", marginTop: "1rem"}}>Olá, sou o Renato. Atualmente sou desenvolvedor front-end junior, com conhecimentos em
-            HTML5, CSS3, ReactJS e Styled-Components, e estudante da Kenzie Academy, um curso livre
-            com formação Full Stack e duração de duas mil horas. Gosto de resolver problemas e fazer 
-            aplicações web. No momento estou vendo NodeJS e sou um grande entusiasta dessa tecnologia.
-            Meu principal Hobby é jogar, assim como grande parte dos devs.
+          <h1 style={{ color: "white", fontSize: "1.7rem" }}>Sobre mim</h1>
+          <p style={{ color: "white", marginTop: "1rem" , fontSize: "1.2rem", lineHeight: "2.3rem"}}>
+            Olá, sou o Renato, tenho 18 anos, atualmente sou desenvolvedor
+            front-end junior, com conhecimentos em HTML5, CSS3, ReactJS e
+            Styled-Components, e estudante da Kenzie Academy, um curso livre com
+            formação Full Stack e duração de duas mil horas. Gosto de resolver
+            problemas e fazer aplicações web. No momento estou vendo NodeJS e
+            sou um grande entusiasta dessa tecnologia. Meu principal Hobby é
+            jogar, assim como grande parte dos devs.
           </p>
         </Container>
       </About>
