@@ -86,11 +86,12 @@ export const Home = (): JSX.Element => {
           <h1 style={{ color: "white", fontSize: "1.7rem" }}>Sobre mim</h1>
           <p style={{ color: "white", marginTop: "1rem" , fontSize: "1.2rem", lineHeight: "2.3rem"}}>
             Olá, sou o Renato, tenho 18 anos, atualmente sou desenvolvedor
-            front-end junior, com conhecimentos em HTML5, CSS3, ReactJS e
-            Styled-Components, e estudante da Kenzie Academy, um curso livre com
+            full stack junior, com conhecimentos em HTML5, CSS3, ReactJS,
+            Styled-Components, Python, Django, Django Rest Framework, PostgreSQL e noções de NodeJs e Express.
+            e estou finalizando a Kenzie Academy, um curso livre com
             formação Full Stack e duração de duas mil horas. Gosto de resolver
-            problemas e fazer aplicações web. No momento estou vendo NodeJS e
-            sou um grande entusiasta dessa tecnologia. Meu principal Hobby é
+            problemas e fazer aplicações web. No momento estou procurando uma oportunidade para entrar 
+            na área tech e continuo estudando. Meu principal Hobby é
             jogar, assim como grande parte dos devs.
           </p>
         </Container>

@@ -4,7 +4,9 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import imgPython from "../public/static/img/stack/python.png"
+import imgPostgre from "../public/static/img/stack/postgresql.png"
+import imgDjango from "../public/static/img/stack/django.png"
 
 export const stackData = [
   {
@@ -30,5 +32,17 @@ export const stackData = [
   {
     title: "React",
     img: imgReact,
+  },
+  {
+    title: "Python",
+    img: imgPython
+  },
+  {
+    title: "PostgreSQL",
+    img: imgPostgre
+  },
+  {
+    title: "Django",
+    img: imgDjango
   }
 ];
